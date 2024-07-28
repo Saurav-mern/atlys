@@ -16,7 +16,7 @@
         if (storedUser) {
             const user = JSON.parse(storedUser);
             if ((user.email === email || user.username === email) && user.password === password) {
-                goto('/atlys/home');
+                goto('/home');
             } else {
                 alert('Invalid credentials. Please try again.');
             }
