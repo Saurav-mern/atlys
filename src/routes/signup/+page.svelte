@@ -5,4 +5,4 @@
     import Signup from '../../lib/components/Signup.svelte'
 </script>
 
-<Signup navigate={() => goto('/login')}/>
+<Signup navigate={() => goto('/atlys/login')}/>
