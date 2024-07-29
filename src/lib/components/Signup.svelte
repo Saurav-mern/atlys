@@ -15,7 +15,7 @@
     function signup() {
         if (email && username && password) {
             localStorage.setItem('user', JSON.stringify({ email, username, password }));
-            goto('/atlys/login');
+            goto('/login');
         } else {
             alert("Please fill in all fields.");
         }
